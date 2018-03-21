@@ -1,7 +1,7 @@
 baseurl = "https://qietingfengling.github.io"
 DefaultContentLanguage = "en"
 #DefaultContentLanguage = "ja"
-title = "yingfeng.chen blog"
+title = "Listen Wind"
 theme = "beautifulhugo"
 metaDataFormat = "yaml"
 pygmentsStyle = "trac"
@@ -10,10 +10,10 @@ pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
 pygmentOptions = "linenos=table"
 #disqusShortname = "XXX"
-#googleAnalytics = "XXX"
+googleAnalytics = "UA-114876224-1"
 
 [Params]
-  subtitle = "Build a beautiful and simple website in minutes"
+  subtitle = ""
   logo = "img/avatar-icon.png"
   favicon = "img/favicon.ico"
   dateFormat = "January 2, 2006"
@@ -58,21 +58,9 @@ pygmentOptions = "linenos=table"
 
 [[menu.main]]
     parent = "samples"
-    name = "Big Image Sample"
-    url = "post/2017-03-07-bigimg-sample"
+    name = "golang rate code analysis"
+    url = "post/go_rate"
     weight = 1
-
-[[menu.main]]
-    parent = "samples"
-    name = "Math Sample"
-    url = "post/2017-03-05-math-sample"
-    weight = 2
-
-[[menu.main]]
-    parent = "samples"
-    name = "Code Sample"
-    url = "post/2016-03-08-code-sample"
-    weight = 3
 
 [[menu.main]]
     name = "Tags"
